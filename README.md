@@ -24,8 +24,8 @@ unde "mul" poate fi 1 sau -1. Astfel y(1,1) -> 1, y(1,2) -> 2 etc.
 - Descifrarea a fost simpla: daca variabila x din sat.sol e pozitiva, atunci y(i,r) cu codul
 r e true, deci setul i e al r-lea din acoperire.
 
-- Complexitatea temporala a reducerii (formulate_oracle_question): O(K*M + K^2*M + K*M^2 + N*M) =
-= O(K^2*M + K*M^2 + N*M), unde N, M, K au seminificatia din enunt.
+- Complexitatea temporala a reducerii (formulate_oracle_question): O(K * M + K^2 * M + K * M^2 + N * M) =
+= O(K^2 * M + K * M^2 + N * M), unde N, M, K au seminificatia din enunt.
 
 ## Task2 - rise:
  
@@ -38,7 +38,7 @@ jucatorul le detine deja.
 - Pentru a determina K minim, execut o cautare binara. Cand aesta e gasit, descifrez
 si printez raspunsul.
 
-- Complexitatea temporala a reducerii (formulate_oracle_question): O(logP * (K*P + K^2 * P + K * P^2 + P * M)),
+- Complexitatea temporala a reducerii (formulate_oracle_question): O(logP * (K * P + K^2 * P + K * P^2 + P * M)),
 unde N, M, P au seminificatia din enunt.
 
 ## Task3 - redemption:
@@ -49,7 +49,7 @@ unde N, M, P au seminificatia din enunt.
 pachetul de carti care contine cele mai multe carti dorite, pana la obtinerea tuturor
 cartilor dorite, apoi printeaza indicii pachetelor alese.
 
-- Complexitate temporala: O(M*(P*T + T)) = O(M*P*T), unde M, P au semnificatia din enunt, iar
+- Complexitate temporala: O(M * (P * T + T)) = O(M * P * T), unde M, P au semnificatia din enunt, iar
 T = max(|P|) - dimensiunea celui mai mare pachetel.
 
 ## Resurse
